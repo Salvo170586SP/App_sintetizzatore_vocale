@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(#15155e 5%, #030506);
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+textarea{
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+button{
+    border: 0;
+    outline: 0;
+    padding: 35px;
+    background-color: #2424bd;
+    border-radius: 20px;
+}
+
+button i{
+    color: white;
+}
+
+button:active{
+    transform: scale(0.9);
+}
