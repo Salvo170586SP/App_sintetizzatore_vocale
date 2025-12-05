@@ -5,13 +5,12 @@ const play = document.getElementById('play');
 const rangebar = document.querySelector('input');
 
 
-play.addEventListener('touchend', function(){
+play.addEventListener('click', function(){
     const textLength = textarea.value.trim().length;
     console.log(textLength);
 
     if(textLength > 0){
         talk();
-
     }
 });
 
